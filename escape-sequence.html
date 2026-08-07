@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Escape Sequence: Snake Puzzle</title>
+<meta name="description" content="The system is infested. Tap the bugs out, one snake at a time. Every level is solvable — guaranteed.">
+<meta property="og:title" content="Escape Sequence: Snake Puzzle">
+<meta property="og:description" content="Tap to untangle & squash bugs. Every level is solvable — guaranteed.">
+<meta property="og:type" content="website">
+<style>
+  :root { --bg:#10140d; --surface:#161c11; --line:#23301b; --ink:#cbe3be;
+    --dim:#7e9070; --accent:#8fce63; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font-family:ui-monospace, Menlo, Consolas, monospace; line-height:1.65; }
+  main { max-width:760px; margin:0 auto; padding:56px 24px 72px; }
+  header { text-align:center; margin-bottom:40px; }
+  h1 { font-size:2rem; margin:0 0 6px; color:var(--accent); line-height:1.2; }
+  .tag { color:var(--dim); margin:0 0 22px; font-size:1.05rem; }
+  .pitch { font-size:1.05rem; margin:0 auto; max-width:56ch; }
+  .shots { display:flex; gap:14px; justify-content:center; flex-wrap:wrap;
+    margin:40px 0; }
+  .shots img { width:220px; max-width:44vw; border-radius:14px;
+    border:1px solid var(--line); }
+  h2 { font-size:1.15rem; margin:36px 0 10px; color:var(--accent); }
+  ul { margin:8px 0; padding-left:20px; }
+  li { margin:7px 0; }
+  li b { color:var(--ink); }
+  .cta { text-align:center; margin:44px 0 8px; }
+  .btn { display:inline-block; background:var(--accent); color:#10140d;
+    text-decoration:none; font-weight:700; padding:13px 26px;
+    border-radius:12px; }
+  .soon { color:var(--dim); font-size:.9rem; margin-top:10px; }
+  .links { text-align:center; margin-top:36px; color:var(--dim);
+    font-size:.9rem; }
+  a { color:var(--accent); }
+  footer { color:var(--dim); font-size:.85rem; margin-top:44px;
+    text-align:center; border-top:1px solid var(--line); padding-top:20px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Escape Sequence</h1>
+    <p class="tag">// snake puzzle — for iPhone</p>
+    <p class="pitch">The system is infested. Tap a bug and it slithers off
+    the board along its own body, if its lane is clear. Every level is
+    solvable — guaranteed. Levels are built backwards from the solution, so
+    a dead end is mathematically impossible.</p>
+  </header>
+
+  <div class="shots">
+    <img src="img/es_01_debug.png" alt="A near-solved board with one snake mid-escape">
+    <img src="img/es_02_picture.png" alt="A skull-shaped picture level made entirely of snakes">
+    <img src="img/es_03_abyss.png" alt="A dense, colorful board deep in the endless abyss region">
+  </div>
+
+  <h2>Simple to read, deep to play</h2>
+  <ul>
+    <li><b>The whole puzzle is order.</b> Bodies block lanes. Someone has
+    to move first — figuring out who is the entire game.</li>
+    <li><b>Tap into a blocked lane and that's an error.</b> Three errors
+    and the build fails — no undo, no ad-continue. Read the board.</li>
+  </ul>
+
+  <h2>Journey through 12 regions</h2>
+  <ul>
+    <li>From <b>python_meadow</b>, where the bugs are gentle, through
+    <b>rust_belt</b>, <b>haskell_heights</b>, and <b>kernel_caverns</b>,
+    down into the endless <b>assembly_abyss</b>. New colors, denser code,
+    twistier snakes.</li>
+    <li><b>Picture levels.</b> Every region ends in a silhouette board —
+    the snakes themselves weave a heart, a gear, a skull, an atom...</li>
+  </ul>
+
+  <h2>Endless, and cozy about it</h2>
+  <ul>
+    <li>The deeper you go, the deeper it goes. <b>Levels never run
+    out.</b></li>
+    <li>Play with one thumb. No timers on your thinking. <b>Hints if you
+    want them.</b></li>
+  </ul>
+
+  <div class="cta">
+    <a class="btn" href="https://apps.apple.com/app/id6790648172">Download on the App Store</a>
+    <p class="soon">iPhone · free with optional purchases</p>
+  </div>
+
+  <p class="links">
+    <a href="escape-sequence-privacy.html">privacy policy</a> ·
+    <a href="escape-sequence-support.html">support</a>
+  </p>
+
+  <footer>Had Games — <a href="./">more small games</a></footer>
+</main>
+</body>
+</html>
